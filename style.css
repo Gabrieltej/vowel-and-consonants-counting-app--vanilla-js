@@ -1,0 +1,64 @@
+body{
+ background-color: royalblue;
+}
+
+.wrapper{
+ background-color: bisque;
+ height: 70vh;
+ justify-items: center;
+ border-radius: 10px;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ display: flex;
+ position: relative;
+}
+.vowel{
+ font-weight: bold;
+}
+.consonant{
+ font-weight: bold;
+ 
+}
+ .divwrap{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ justify-items: center;
+ height: 100vh;
+ }
+.field{
+ height: 190px;
+ margin-top: -120px;
+ border-radius: 6px;
+ border: none;
+}
+.subbutton{
+position: relative;
+top: 5rem;
+background-color:red;
+border: red;
+border-radius: 12px;
+color: white;
+padding: 10px;
+font-weight: bold;
+left: -9rem;
+}
+.subbutton:hover{
+background-color:green;
+border: green;
+border-radius: 12px;
+color: white;
+padding: 10px;
+font-weight: bold
+}
+.result{
+ width: 30%;
+ height: 12px;
+ position: absolute;
+ top: 20rem; 
+ left: 25rem;
+ text-align: center;
+ font-weight: bold;
+}
+
